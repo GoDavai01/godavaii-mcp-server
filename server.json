@@ -1,0 +1,46 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.GoDavai01/health-ai",
+  "description": "GoDavaii Health AI — Indian medicine DB, drug interactions, pregnancy safety, dosage checks",
+  "version": "1.0.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "godavaii-mcp-server",
+      "version": "1.0.1",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "tools": [
+    {
+      "name": "search_medicine",
+      "description": "Search Indian medicines by name or brand"
+    },
+    {
+      "name": "check_drug_interaction",
+      "description": "Check drug-drug interaction severity and management"
+    },
+    {
+      "name": "find_generic_alternatives",
+      "description": "Find cheaper generic alternatives for branded medicines"
+    },
+    {
+      "name": "check_pregnancy_safety",
+      "description": "Check medicine safety during pregnancy"
+    },
+    {
+      "name": "lookup_lab_test",
+      "description": "Look up lab test normal ranges and clinical significance"
+    },
+    {
+      "name": "check_dosage_safety",
+      "description": "Check safe dosage limits by population"
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/GoDavai01/godavaii-website",
+    "source": "https://github.com/GoDavai01/godavaii-website"
+  }
+}

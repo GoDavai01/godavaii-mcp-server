@@ -1,0 +1,33 @@
+{
+  "name": "godavaii-mcp-server",
+  "version": "1.0.1",
+  "description": "GoDavaii Health AI MCP Server -- Indian medicine database with drug interactions, lab values, pregnancy safety, dosage validation",
+  "main": "index.js",
+  "bin": {
+    "godavaii-mcp": "./index.js"
+  },
+  "type": "module",
+  "keywords": [
+    "mcp",
+    "health",
+    "medicine",
+    "drug-interactions",
+    "india",
+    "ai",
+    "godavaii"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "better-sqlite3": "^12.9.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "index.js",
+    "src/",
+    "data/safety.db",
+    "README.md"
+  ]
+}
