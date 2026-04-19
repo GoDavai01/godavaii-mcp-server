@@ -1,13 +1,13 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.GoDavai01/health-ai",
+  "name": "io.github.GoDavai01/godavaii-mcp-server",
   "description": "GoDavaii Health AI — Indian medicine DB, drug interactions, pregnancy safety, dosage checks",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "godavaii-mcp-server",
-      "version": "1.0.1",
+      "version": "1.0.3",
       "transport": {
         "type": "stdio"
       }
@@ -38,9 +38,5 @@
       "name": "check_dosage_safety",
       "description": "Check safe dosage limits by population"
     }
-  ],
-  "repository": {
-    "url": "https://github.com/GoDavai01/godavaii-mcp-server.git",
-    "source": "https://github.com/GoDavai01/godavaii-mcp-server.git"
-  }
+  ]
 }

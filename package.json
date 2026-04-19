@@ -1,8 +1,9 @@
 {
   "name": "godavaii-mcp-server",
-  "version": "1.0.1",
-  "description": "GoDavaii Health AI MCP Server -- Indian medicine database with drug interactions, lab values, pregnancy safety, dosage validation",
+  "version": "1.1.0",
+  "description": "GoDavaii Health AI MCP Server — TEASER build (500 interactions + 200 medicines + 20 lab refs). Full 1.6 Lakh+ interactions via godavaii.com.",
   "main": "index.js",
+  "mcpName": "io.github.GoDavai01/godavaii-mcp-server",
   "bin": {
     "godavaii-mcp": "./index.js"
   },

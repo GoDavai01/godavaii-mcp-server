@@ -1,0 +1,37 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Auth tokens (NEVER commit)
+.mcpregistry_*_token
+.mcpregistry_github_token
+.mcpregistry_registry_token
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Registry publisher binaries (download on demand, not part of package)
+mcp-publisher
+mcp-publisher.exe
+mcp-publisher.tar.gz
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Builds
+dist/
+build/
+
+# Temp
+*.tmp
+*.bak
